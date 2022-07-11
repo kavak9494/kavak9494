@@ -1,0 +1,71 @@
+<p> Ты Пёс?<input id='message' />
+ </p>
+<hr/>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<textarea id="input1">0</textarea>
+
+<textarea id="input2">0</textarea>	
+
+<button name=sumButton onclick="buttonClick()">cуммировать</button>
+<button name=sumButton2 onclick="buttonClick2()">вычитание</button>
+<button name=sumButton3 onclick="buttonClick3()">умножить</button>
+<button name=sumButton4 onclick="buttonClick4()">деление</button>
+
+
+
+<textarea id="output">0</textarea>
+
+<script>
+function buttonClick(){
+let res = 0
+res = parseInt(document.getElementById("input1").value, 10) + parseInt(document.getElementById("input2").value, 10)
+document.getElementById("output").value = res
+
+}
+
+function buttonClick2(){
+let res = 0
+res = parseInt(document.getElementById("input1").value, 10) - parseInt(document.getElementById("input2").value, 10)
+document.getElementById("output").value = res
+
+}
+
+function buttonClick3(){
+let res = 0
+res = parseInt(document.getElementById("input1").value, 10) * parseInt(document.getElementById("input2").value, 10)
+document.getElementById("output").value = res
+
+}
+
+function buttonClick4(){
+let res = 0
+res = parseInt(document.getElementById("input1").value, 10) / parseInt(document.getElementById("input2").value, 10)
+document.getElementById("output").value = res
+
+}
+
+
+
+
+</script>
+</body>
+</html>
+
+<p></p>
+
+
+<img src='https://animalworld.com.ua/images/2014/November/Foto/2/Fun_anim-21.jpg'/> 
+
+<p></p>
+
+
+
+
+
+<p></p>
+
+<input value='Бегом в будку' />
